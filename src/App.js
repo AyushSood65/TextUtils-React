@@ -27,12 +27,12 @@ function App() {
       setMode('dark')
       document.body.style.backgroundColor = '#042743'
       showAlert("Dark Mode is Enabled", "success")
-      document.title = "TextUtil-Dark";
+      // document.title = "TextUtil-Dark";
     } else {
       setMode('light')
       document.body.style.backgroundColor = 'white'
       showAlert("Light Mode is Enabled", "success")
-      document.title = "TextUtil-Light";
+      // document.title = "TextUtil-Light";
     }
   }
   return (
